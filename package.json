@@ -1,0 +1,19 @@
+{
+  "name": "cloudnotebook-bakcend",
+  "version": "1.0.0",
+  "description": "cloudnotebook - Notebook on cloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "cloudnotebook - Notebook on cloud"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.3"
+  }
+}
