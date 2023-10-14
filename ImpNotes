@@ -1,0 +1,18 @@
+# While creating user - name, email, password is required.
+while login email and password is required.
+password is set as hashCode.
+
+Hacker had already table called "Rainbow Table" which consist password and it's hashCode..., there might a 
+billion or trillion of table in the Rainbow table and there is possiblities that one hashCode might match with the 
+actual password hash. 
+
+SALT:-
+    SO for the secuirity purpose a concept caleled "SALT" is used with the password, it's a random string e.g., a12de34@e 
+    that is being added with the actual password and then hash get created and that bacame more secure. And for a hacker 
+    it's almost impossible to hack, because for hacker creating "Rainbow Table" for "PASSWORD+SALT" is almost impossible.
+
+    "bcryptjs" package is used for same with function "genSalt"
+
+PEPPER:-
+    "PEPPER" is also a fixed string that gets added with the password and salt and make more stronger hash.
+    "PASSWORD+SALT+PEPPER"
